@@ -1,0 +1,157 @@
+{
+        "intents": [
+                {
+                        "tag": "noanswer",
+                        "patterns": [
+                                ""
+                        ],
+                        "responses": [
+                                "Sorry, can't understand you",
+                                "Please give me more info",
+                                "Not sure I understand",
+                                "Sorry!! can't quite do that till now"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for asking",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "options",
+                        "patterns": [
+                                "How you could help me?",
+                                "What you can do?",
+                                "What help you provide?",
+                                "How you can be helpful?",
+                                "What support is offered"
+                        ],
+                        "responses": [
+                                "I can answer all your queries through google, wikipedia , ,also take care of custom queries , can open various apps for you and much more "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "game",
+                        "patterns": [
+                                "I am bored",
+                                "I want to do something interesting",
+                                "Lets play a game"
+                        ],
+                        "responses": [
+                                "Sorry!! I can't do that at this moment"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "developers",
+                        "patterns": [
+                                "Who made you?",
+                                "What are you?",
+                                "Who are your developers?"
+                        ],
+                        "responses": [
+                                "I am a multi purpose chatbot created by Group 21 "
+                        ],
+                        "context": [
+                                "display_dev_names"
+                        ]
+                },
+                {
+                        "tag": "display_dev_names",
+                        "patterns": [],
+                        "responses": [
+                                "Nakul, Rugved, Pankaja, KK"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Example",
+                        "patterns": [
+                                "Give me an example of how to search wiki?",
+                                "How to search wiki?",
+                                "Could you give me an example!!!"
+                        ],
+                        "responses": [
+                                "Try typing 'wiki: what is an atom?' "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Reg_no",
+                        "patterns": [
+                                "What are your makers registration numbers?",
+                                "What are your devs roll numbers?",
+                                "what are your developers names"
+                        ],
+                        "responses": [
+                                "Nakul 20BAI10019, Rugved 20BAI10078, Pankaja 20BAI10007, Kanti kiran 20BAI10059"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+        ]
+}
